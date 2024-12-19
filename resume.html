@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.imgur.com/3g7nmJC.jpg'); /* Updated background image */
+            background-size: cover; /* Ensures the image covers the entire page */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-position: center; /* Centers the image */
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.95); /* Softer background */
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Updated shadow for a cleaner look */
+        }
+
+        header {
+            background: #2e3b55; /* Darker header for better contrast */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav a {
+            color: #ffd700; /* Gold for navigation links */
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            color: #2e3b55; /* Matches header color */
+            border-bottom: 2px solid #2e3b55;
+            padding-bottom: 5px;
+        }
+
+        .about p, section p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        ul {
+            list-style: circle;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        /* Job Cards */
+        .job {
+            background-color: #f5f9ff; /* Light blue for job cards */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .job h3 {
+            margin: 0 0 5px;
+            font-size: 1.4rem;
+            color: #2e3b55;
+        }
+
+        .profile-photo {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .profile-photo img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #2e3b55;
+            object-fit: cover;
+        }
+
+        .contact p {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .contact p a {
+            color: #2e3b55;
+            text-decoration: none;
+        }
+
+        .contact p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="biodata.html">Bio-data</a>
+        </nav>
+    </header>
+    <div class="container"> 
+        <h1>John Doe</h1> 
+        <p>Web Developer | Designer | Creative Thinker</p>
+        <div class="profile-photo"> 
+            <img src="https://i.pinimg.com/originals/07/33/ba/0733ba760b29378474dea0fdbcb97107.png" alt="Profile Photo"> 
+        </div>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Passionate developer with a knack for creating innovative web experiences.</p>
+        </section> 
+        <section class="skills"> 
+            <h2>Skills</h2> 
+            <ul> 
+                <li>HTML</li> 
+                <li>CSS</li> 
+                <li>JavaScript</li> 
+                <li>React</li> 
+                <li>Node.js</li> 
+            </ul>
+        </section>
+        <section class="experience">
+            <h2>Experience</h2> 
+            <div class="job">
+                <h3>Web Developer at Tech Corp</h3>
+                <p>Jan 2020 - Present</p>
+                <p>Developed and maintained web applications with a focus on user experience and performance.</p>
+            </div> 
+            <div class="job">
+                <h3>UI/UX Designer at Design Studio</h3> 
+                <p>Jun 2018 - Dec 2019</p>
+                <p>Created user-friendly designs for various digital platforms.</p> 
+            </div> 
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:georgeh@email.com">georgeh@email.com</a></p> 
+            <p>Phone: +123 456 7890</p>
+        </section>
+    </div>
+</body>
+</html>
